@@ -14,7 +14,6 @@ class MyService : Service() {
 
         val notificationRemoteIntent = RemoteViews(this.packageName, R.layout.notification_layout)
 
-
         var notification = NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.radio_ic)
             .setStyle(NotificationCompat.DecoratedCustomViewStyle())
